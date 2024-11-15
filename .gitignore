@@ -1,0 +1,23 @@
+# Dependencias de Composer
+/vendor/
+
+# Archivos de configuración con datos sensibles
+.env
+config.php
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE y editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
