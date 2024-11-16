@@ -6,27 +6,27 @@ Sistema web desarrollado en PHP para la gestión integral de inventarios empresa
 
 
 ### Características principales:
-• Control de entrada y salida de productos
-• Gestión de categorías y proveedores
-• Alertas de stock mínimo
-• Reportes detallados de movimientos
-• Exportación de datos a Excel
-• Interfaz intuitiva y responsiva
-• Búsqueda avanzada de productos
-• Historial de transacciones
+- Control de entrada y salida de productos
+- Gestión de categorías y proveedores
+- Alertas de stock mínimo
+- Reportes detallados de movimientos
+- Exportación de datos a Excel
+- Interfaz intuitiva y responsiva
+- Búsqueda avanzada de productos
+- Historial de transacciones
 
 ## ✨ Funcionalidades Técnicas
-• Exportación a Excel usando PHPSpreadsheet
-• Generación de reportes en PDF
-• Sistema de búsqueda optimizado
-• Gestión de usuarios y permisos
-• Respaldos automáticos de datos
+- Exportación a Excel usando PHPSpreadsheet
+- Generación de reportes en PDF
+- Sistema de búsqueda optimizado
+- Gestión de usuarios y permisos
+- Respaldos automáticos de datos
 
 ## 🔧 Requisitos
-• PHP 8.0 o superior
-• MySQL o MariaDB
-• Servidor web con soporte para PHP y MySQL (Apache, Nginx, etc.)
-• Extensiones PHP requeridas:
+- PHP 8.0 o superior
+- MySQL o MariaDB
+- Servidor web con soporte para PHP y MySQL (Apache, Nginx, etc.)
+- Extensiones PHP requeridas:
 
 ```68:81:vendor/phpoffice/phpspreadsheet/composer.json
         "php": "^8.1",
@@ -54,5 +54,5 @@ composer install
 
 2. Configurar la base de datos:
 
-   • Copiar `config.example.php` a `config.php`
-   • Editar las credenciales de la base de datos en `config.php`
+- Copiar `config.example.php` a `config.php`
+- Editar las credenciales de la base de datos en `config.php`
